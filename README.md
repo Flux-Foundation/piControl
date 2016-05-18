@@ -1,20 +1,8 @@
 piControl is allow reboot and shutdown from browser in local network. It's using node.js.
 
 ## Install Node.js
-
-	cd /usr/src
-	sudo wget http://nodejs.org/dist/v0.8.18/node-v0.8.18.tar.gz
-	sudo tar xvzf node-v0.8.18.tar.gz
-	cd node-v0.8.18
-	sudo ./configure
-	sudo make
-	sudo make install
-	
-The make process can take quite a while, well over **a hour** in most case.
-
-If you want to install node.js automatically , call
-
-	sudo sh ./install.sh
+	curl -sLS https://apt.adafruit.com/add | sudo bash
+	sudo apt-get install node
 
 ## Install forever
 
